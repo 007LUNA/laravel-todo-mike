@@ -15,9 +15,6 @@ jobs:
           host: ${{secrets.HOST}}
           username: ${{secrets.USERNAME}}
           key: ${{secrets.KEY}}
-          script: "cd /home/ubuntu/dp && ./deploy.sh"port: 22
-          timeout: 60s
-          command_timeout: 15m
-          debug: true
+          script: "cd /home/ubuntu/dp && ./deploy.sh"
           
   
